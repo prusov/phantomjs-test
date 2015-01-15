@@ -13,6 +13,7 @@ executeTest('Test failure exit code', 'return-failure-exit-code.js');
 // cannot terminate process
 //executeTest('Test syntax error js', 'syntax-error.js');
 executeTest('Test successful js', 'success.js');
+executeTest('Test load file from js', 'load-file.js');
 
 
 function executeTest($title, $jsFile)
