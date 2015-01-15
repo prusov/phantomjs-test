@@ -1,0 +1,7 @@
+{
+    "name": "prusov/phantomjs-test",
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/process": "~2"
+    }
+}
