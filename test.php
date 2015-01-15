@@ -9,6 +9,7 @@ define('PHANTOM_CMD', 'docker run -v ' . __DIR__ . '/js:/mnt/test cmfatih/phanto
 define('PROCESS_TIMEOUT', 2);
 
 executeTest('Test execute non existent js', 'non-existent.js');
+executeTest('Test failure exit code', 'return-failure-exit-code.js');
 // cannot terminate process
 //executeTest('Test syntax error js', 'syntax-error.js');
 executeTest('Test successful js', 'success.js');
